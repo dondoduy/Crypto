@@ -1,0 +1,50 @@
+.button_primary
+	display: block
+	text-align: center
+	background-color: $accent
+	color: #fff
+	text-decoration: none
+	border: 2px solid transparent
+	outline: none
+	&:hover
+		background-color: darken($accent, 10%)
+		color: #fff
+		border: 2px solid $accent
+		text-decoration: none
+		cursor: pointer
+	&:focus
+		text-decoration: none
+		color: #fff
+		background-color: darken($accent, 15%)
+		&::after
+			opacity: .22
+	&:active
+		background-color: darken($accent, 5%)
+		&::after
+			opacity: .32
+
+.button_secondary
+	display: block
+	border: 2px solid $accent
+	color: $accent
+	background-color: transparent
+	text-decoration: none
+	outline: none
+	&:hover
+		text-decoration: none
+		color: $darkBlue
+		background-color: $accent
+		transition: background-color .25s ease
+		border: 2px solid transparent
+		cursor: pointer
+		
+
+.startEarning
+	margin: 0 auto
+	margin-top: 4rem
+	padding: 15px 40px
+	// width: 260px
+	border-radius: 40px
+	font-size: 1.1rem
+	font-weight: normal
+	text-transform: uppercase

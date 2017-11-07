@@ -1,0 +1,591 @@
+main
+	.firstSection
+		background: url(../img/bg1.png) no-repeat center center fixed
+		background-attachment: scroll
+		background-size: cover
+		height: 90vh
+		padding: 1rem 1rem
+		position: relative
+		padding-bottom: 55px
+		// display: table
+		.topLine 
+			.topLineLogo
+				.logo 
+					color: #fff
+					background-color: transparent
+					span
+						font-size: 2.5rem
+						font-family: Circe
+						font-weight: normal
+						font-style: normal
+						sup
+							background-color: red
+							border-radius: 3px
+							font-size: 1rem
+							padding: 2px
+							font-family: Circe
+							font-weight: bold
+							font-style: normal
+
+			.currentCourse
+				margin-top: 1.5rem
+				margin-bottom: 1rem
+				text-align: center
+				.course
+				.salePrice 
+					background-color: #fff
+					color: red
+					font-weight: bold
+					padding: 6px 12px
+					border-radius: 20px
+					font-size: .85rem
+					margin-left: .5rem
+
+			.hamburger
+				float: right
+				outline: none
+				.hamburger-box
+					width: 40px
+
+			.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before
+				height: 3px
+				background-color: #fff
+			
+			.menu
+				margin-top: 2rem
+				display: none
+				nav 
+					// float: right
+					ul 
+						list-style: none
+						text-transform: uppercase
+						.singUp 
+							border: 2px solid #fff
+							padding: 6px 16px
+							border-radius: 20px
+							
+						li 
+							display: inline
+							padding-right: 1rem
+
+
+							a 
+								color: #fff
+								&:hover
+									color: $accent
+		.mainText
+			// display: table-cell
+			// vertical-align: middle
+			// margin: auto
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			align-items: center
+
+			h1
+				text-transform: uppercase
+				text-align: center
+				font-weight: bold
+				font-style: normal
+				font-size: 2rem
+				margin-top: 4rem
+				// position: absolute
+				// top: 50%
+				// left: 35%
+				// height: 30%
+				// width: 80%
+				// margin: -25% 0 0 -25%
+			h4
+				text-align: center
+				margin-top: 1rem
+				font-weight: 200
+				font-style: normal
+				// position: absolute
+				// top: 70%
+				// left: 35%
+				// height: 30%
+				// width: 80%
+				// margin: -25% 0 0 -25%
+
+			.startEarning
+			// position: absolute
+			// bottom: 2rem
+			// width: 260px
+			// left: 50%
+			// margin-left: -130px
+	
+	.secondSection
+		padding: 0 0 1rem 0
+		border-bottom: rgba(255,255,255,.15) 2px solid
+	.gradientBorder
+		&::before
+			background: linear-gradient(to right, #a3cd8d 0%, #7ea4d7 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3cd8d', endColorstr='#7ea4d7', GradientType=1)
+			content: ""
+			display: block
+			height: 4px
+			width: 100%
+		.twoParts
+			margin-top: 1.5rem
+			.leftSectionPart
+				max-width: 100%
+				text-align: center
+				h2
+					text-transform: uppercase
+					text-align: center
+					font-size: 1.7rem
+					font-weight: bold
+					margin-top: 1rem
+				p
+					margin: 2rem 1rem 0 1rem
+					line-height: 1.4rem
+					color: rgba(255,255,255, .6)
+				.ourSecret
+					margin: auto
+					margin-top: 4rem
+					padding: 1rem 3rem
+					text-align: center
+					font-size: 1.1rem
+					border-radius: 3rem
+					img
+						vertical-align: middle
+						margin-left: 1rem
+			.rightSectionPart
+				text-align: center
+				img
+					width: 100%
+					max-width: 280px
+
+
+
+	.thirdSection
+		// height: 140vh
+		padding: 1rem 1rem
+		border-bottom: rgba(255,255,255,.15) 2px solid
+		.ourFeatures
+			.feature1, .feature2, .feature3
+				margin: auto
+				text-align: center
+				img
+					margin-top: 1rem
+				h3
+					text-transform: uppercase
+					font-size: 1.2rem
+					margin-top: 1.5rem
+				p
+					margin: 1.2rem
+					color: rgba(255,255,255, .6)
+	.fourthSection
+		// height: 80vh
+		padding: 1rem 1rem
+		border-bottom: rgba(255,255,255,.15) 2px solid
+		.conditions
+			.conditionLeftPart
+				img
+					width: 100%
+					max-width: 400px
+			.conditionRightPart
+				h2
+					text-transform: uppercase
+					text-align: center
+					font-size: 1.7rem
+					font-weight: bold
+				p
+					text-align: center
+					margin-top: 1.2rem
+					color: rgba(255,255,255, .6)
+				.ourCondition
+					margin: auto
+					margin-top: 4rem
+					padding: 1rem 3rem
+					text-align: center
+					font-size: 1.1rem
+					border-radius: 3rem
+					img
+						vertical-align: middle
+						width: auto
+						margin-left: 1rem
+	.fifthSection
+		// height: 80vh
+		padding: 1rem 1rem
+		border-bottom: rgba(255,255,255,.15) 2px solid
+		.growth
+			display: flex
+			flex-direction: column-reverse
+			.growthRightpart
+				img
+					width: 100%
+					max-width: 390px
+			.growthLeftpart
+				h2
+					text-transform: uppercase
+					text-align: center
+					font-size: 1.7rem
+					font-weight: bold
+				p
+					text-align: center
+					margin-top: 1.2rem
+					color: rgba(255,255,255, .6)
+				.aboutIncome
+					margin: auto
+					margin-top: 4rem
+					padding: 1rem 2rem
+					text-align: center
+					font-size: 1.1rem
+					border-radius: 3rem
+					white-space: nowrap
+					img
+						vertical-align: middle
+						width: auto
+						margin-left: 1rem
+	.sixthSection
+		padding: 1rem 1rem
+		display: flex
+		// flex-direction: column
+		h2
+			text-transform: uppercase
+			text-align: center
+			font-size: 1.7rem
+			font-weight: bold
+			margin: 3rem 0
+		.transaction
+			table
+				// border: 1px solid #ccc
+				border-collapse: collapse
+				margin: 0
+				padding: 0
+				table-layout: fixed
+				width: 100%
+				max-width: 580px
+
+				tr
+					background: transparent
+					padding: .5rem
+				td
+					padding: 1.2rem 1.4rem
+					text-align: center
+					border: rgba(255,255,255,.15) 1px solid
+				td:nth-child(1)
+					color: #7aa3d7
+					overflow-x: hidden
+				td:nth-child(2)
+					color: #9fa3ab
+				td:nth-child(3)
+					color: #61ba86
+		.news	
+			margin-left: 1rem
+			// display: none
+			h2
+				text-align: center
+			h5
+				margin: 1.3rem 0 1rem 0
+
+			p
+				color: #9fa3ab
+
+
+	
+	.seventhSection
+		background: url(../img/bg2.png) no-repeat center center fixed
+		background-attachment: scroll
+		background-size: cover
+		
+
+	.gradientBorderDouble
+		&::before, &::after
+			background: linear-gradient(to right, #a3cd8d 0%, #7ea4d7 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3cd8d', endColorstr='#7ea4d7', GradientType=1)
+			content: ""
+			display: block
+			height: 4px
+			width: 100%
+		
+		.seventhSectionInner
+			display: flex
+			margin: auto
+			position: relative
+			.ourContacts
+				background-color: #fff
+				display: block
+				margin: auto
+				margin-top: 3rem
+				margin-bottom: 3rem
+				form
+
+					input
+						border: none
+						margin-top: 1rem
+						padding: .5rem 0 .5rem 0rem
+						&[type="text"]
+							background-color: #f4f7fb
+							width: 100%
+
+						&[type="email"]
+							background-color: #f4f7fb
+							width: 100%
+					textarea
+						background-color: #f4f7fb
+						width: 100%
+						border: none
+						resize: none
+						margin-top: 1rem
+						padding: 0
+					.sendMessageButton
+						margin-top: 1rem
+						width: 100%
+						padding: 1rem 1rem
+						background-color: #7da3d7
+						color: #fff
+						text-transform: uppercase
+						border-radius: 2px
+						text-align: center
+						&:hover
+							background-color: darken(#7da3d7, 35%)
+							cursor: pointer
+							transition: all .5s ease
+						
+			.borderImage
+				padding: 2rem
+				border-style: solid
+				border-width: 10px 0 0 0
+				border-image: url(../img/ribbon.png) 10 0 fill repeat
+				h4
+					text-transform: uppercase
+					text-align: center
+					font-size: 1.7rem
+					font-weight: bold
+					color: #4a4a4a
+
+	.eighthSection
+		border-bottom: rgba(255,255,255,.15) 2px solid
+		.stableWay
+
+			h2
+				margin-top: 3rem
+				text-transform: uppercase
+				text-align: center
+				font-size: 1.7rem
+				font-weight: bold
+				line-height: 2rem
+				
+			.startEarning
+				margin-bottom: 3rem
+				margin-top: 2rem	
+			
+
+.growth, .conditions
+	text-align: center
+
+footer
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	padding: 1rem 1rem
+	.footerMenu, .copyRight
+		text-align: center
+		text-transform: uppercase
+		
+	.footerMenu
+		font-size: 1.5rem
+		ul
+			li
+				padding-bottom: 1.5rem
+				a
+					text-decoration: none
+					color: #fff
+					&:hover
+						color: darken(#fff, 35%)
+
+	.copyRight
+		font-size: 1rem
+		text-align: right
+		color: #fff
+		padding-bottom: 1.5rem
+
+.open
+	display: block
+
+
+
+
+
+//media
+
+
+@media screen and (max-width: 600px)
+	main
+		.sixthSection
+			.transaction
+				table
+					tr
+						display: block
+
+					td
+						display: block
+						text-align: left
+
+@media screen and (max-width: 900px) 
+	main
+		.firstSection
+			// height: 50vh
+
+		.sixthSection
+			flex-direction: column
+			.news
+				margin: .5rem
+
+
+@media screen and (min-width: 600px)
+	main
+		.seventhSection
+			.seventhSectionInner
+				.ourContacts
+					padding: 5rem 5rem
+					margin-bottom: -5rem
+					form
+						min-width: 400px
+		.secondSection
+			.twoParts
+				display: flex
+				flex-direction: row-reverse
+				align-items: center
+				justify-content: space-between
+				padding: 0 5rem
+				.rightSectionPart, leftSectionPart
+					max-width: 50%
+					img
+						max-width: 600px
+
+				.leftSectionPart
+					text-align: left
+					// width: 50%
+					h2
+						text-align: left
+					p
+						padding: 3rem 0
+						margin: 0
+					.ourSecret
+						margin: 0rem 0 6rem 0
+						padding: 1rem
+		.thirdSection
+			.ourFeatures
+				display: flex
+				padding: 5rem 0
+		.fourthSection
+			padding: 1rem
+			.conditions
+				display: flex
+				align-items: center
+				.conditionRightPart, .conditionLeftPart
+					width: 50%
+					h2, p
+						text-align: left
+					.ourCondition
+						padding: 1rem
+
+		.fifthSection
+			.growth
+				flex-direction: row
+				.growthLeftpart, .growthRightpart
+					max-width: 50%
+					width: 50%
+				.growthLeftpart
+					h2, p
+						text-align: left
+
+
+		.sixthSection
+			h2
+				text-align: left
+			.news
+				// margin-left: 0
+				h2
+					text-align: left
+
+
+
+
+		.eighthSection
+			padding: 6rem 4rem 4rem 4rem
+			// max-width: 450px
+			// margin: auto
+			// margin-top: 5rem
+
+	footer
+		flex-direction: row
+		justify-content: space-between
+		.footerMenu
+			ul
+				display: flex
+				li
+					padding: 1rem
+		.copyRight
+			padding: 1rem 0
+
+@media screen and (min-width: 900px)
+	main
+		.firstSection
+			text-align: center
+			.mainText
+				// display: inline-block
+				// vertical-align: middle
+				display: flex
+				justify-content: center
+				align-items: center
+				margin-top: 6rem
+				h1
+					font-size: 3rem
+			.topLine 
+				display: flex
+				justify-content: space-around
+			
+				.topLineLogo
+					display: -webkit-box
+				.hamburger
+					display: none
+
+				.menu
+					margin-top: 1.5rem
+					display: block
+					nav 
+						float: right
+						ul 
+							.singUp 
+								&:hover
+									background-color: transparent
+									border: 2px solid $accent
+									cursor: pointer
+									// transition: all .5s ease
+									a
+										color: $accent
+		.fourthSection
+			padding: 5rem
+		.fifthSection
+			padding: 5rem
+		.sixthSection
+			.news
+				margin-left: 1rem
+			.transaction
+				width: 50%
+		.firstSection
+			.topLine
+				.menu
+					nav
+						ul
+							li
+								padding-right: 3rem
+							.singUp
+								margin-right: 3rem
+
+@media screen and (min-width: 1200px)
+	main
+		.sixthSection
+			.transaction
+				margin: 0 3rem 3rem 3rem
+@media screen and (min-height: 700px)
+	main
+		.firstSection
+			.mainText
+				margin-top: 10rem
+
